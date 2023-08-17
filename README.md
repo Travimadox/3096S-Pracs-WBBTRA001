@@ -26,7 +26,7 @@ Here's a breakdown of the content covered in our labs and practicals:
 
 ### Work Package 2
 - **Tutorial**: I2C, Epochs and Binary Coded Decimal
-- **Practical**: Intro to BCOS – Delays and I2C
+- **Practical**: Intro to BCOS – Delays and SPI
 
 ### Work Package 3
 - **Tutorial**: ADC Metrics and PWM
