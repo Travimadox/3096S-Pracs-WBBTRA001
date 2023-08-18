@@ -21,12 +21,12 @@ The repository is organized as follows:
 Here's a breakdown of the content covered in our labs and practicals:
 
 ### Work Package 1
-- **Tutorial**: Linux Basics, GDB
-- **Practical**: Benchmarking C vs Python with heterodyning
+- **Tutorial**: Linux Basics, GDB [Tutorial 1](https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/blob/main/Prac1/EEE3096S_2023_Tutorial_1_Hand_in_WBBTRA001_MSHRUM006.pdf)
+- **Practical**: Benchmarking C vs Python with heterodyning [Practical 1](https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/blob/main/Prac1/EEE3096S_2023_Practical_1_Hand-in_WBBTRA001_MSHRUM006.pdf)
 
 ### Work Package 2
-- **Tutorial**: I2C, Epochs and Binary Coded Decimal
-- **Practical**: Intro to BCOS – Delays and SPI
+- **Tutorial**: I2C, Epochs and Binary Coded Decimal [Tutorial 2](https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/blob/main/Prac2/EEE3096S_2023_Tutorial_2_Hand_in_WBBTRA001_MSHRUM006.pdf)
+- **Practical**: Intro to BCOS – Delays and SPI [Practical 2](https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/blob/main/Prac2/Instructions.md)
 
 ### Work Package 3
 - **Tutorial**: ADC Metrics and PWM
