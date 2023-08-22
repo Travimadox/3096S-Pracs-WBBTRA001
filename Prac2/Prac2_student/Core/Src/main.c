@@ -444,21 +444,6 @@ void TIM16_IRQHandler(void)
 	HAL_TIM_IRQHandler(&htim16);
 
 	// TODO: Change to next LED pattern; output 0x01 if the read SPI data is incorrect
-	/*GPIOB-> ODR &= 0x0000;
-	if(counter <= 5){
-		counter++;
-		LedPattern = read_from_address(counter);
-		if(LedPattern != patterns[counter] && counter!=6){
-				LedPattern = 0b00000001;
-			}
-
-		GPIOB-> ODR |= LedPattern;
-	}else{counter = -1;}*/
-
-	//LedPattern = read_from_address(counter);
-
-	//Fail safe section
-	   // Increment counter and wrap around if necessary
 	    counter = (counter < MAX_COUNTER) ? counter + 1 : 0;
 
 	    LedPattern = read_from_address(counter);
@@ -477,24 +462,7 @@ void TIM16_IRQHandler(void)
 }
 
 //cHANGING THE TIMER DELAY
-/*void change_delay(void)
-{
-    if (LL_GPIO_IsInputPinSet(Button0_GPIO_Port, Button0_Pin))
-    {
-        // Button is pressed; let's toggle the timer delay
 
-    	   if (htim16.Instance->ARR == ONE_SECOND_ARR)
-    	    {
-    	        // Change delay to 0.5 seconds
-    	        htim16.Instance->ARR = HALF_SECOND_ARR;
-    	    }
-    	    else
-    	    {
-    	        // Change delay to 1 second
-    	        htim16.Instance->ARR = ONE_SECOND_ARR;
-    	    }
-    }
-}*/
 void change_delay(void)
 {
     // Check if button is currently pressed
