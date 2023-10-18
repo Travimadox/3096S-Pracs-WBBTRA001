@@ -1,7 +1,7 @@
 
 /*
 * Github Page
-* Link: https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/blob/main/Prac4/Prac4_student/Core/Src/main.c
+* Link: https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/tree/main/Prac4/Prac4_student/Core/Src
 */
 
 
