@@ -1,8 +1,8 @@
 
-/*
-* Github Page
-* Link: https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/tree/main/Prac4/Prac4_student/Core/Src
-*/
+
+GitHub Page
+Link: https://github.com/Travimadox/3096S-Pracs-WBBTRA001-MSHRUM006/tree/main/Prac4/Prac4_student/Core/Src
+
 
 
 /* USER CODE BEGIN Header */
